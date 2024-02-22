@@ -1,0 +1,25 @@
+@media only screen and (max-width: 440px) {
+  .card-container {
+    width: 190px !important;
+  }
+  .card-img {
+    height: 280px !important;
+    width: 190px !important;
+  }
+}
+
+.card-container {
+  width: 274px;
+  height: 280px;
+  margin-bottom: 20px;
+  border: none !important;
+  cursor: pointer;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.card-img {
+  height: "390px";
+  width: "274.46px";
+  border-radius: "9px";
+  object-fit: "fill";
+}

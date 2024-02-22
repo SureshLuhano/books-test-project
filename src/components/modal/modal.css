@@ -1,0 +1,49 @@
+@media only screen and (max-width: 991px) {
+  .book-data-container {
+    width: 100% !important;
+  }
+  .book-img-popup-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .book-img-popup {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .book-data {
+    flex-direction: column;
+  }
+}
+
+.modal-body {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.book-data-container {
+  width: 50%;
+}
+
+.book-data {
+  display: flex;
+  gap: 40px;
+  margin: 25px 0px 25px 0px;
+  flex-wrap: wrap;
+}
+
+.view-book-details-btn {
+  background-color: #004d6d;
+  width: 100%;
+  height: 45px;
+  border-radius: 5px;
+  padding: 10px, 92px, 10px, 92px;
+  gap: 10px;
+  color: white;
+  border: none;
+  margin-top: 15px;
+}
